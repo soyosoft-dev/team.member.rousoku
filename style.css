@@ -1,0 +1,50 @@
+.member-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+pre {
+  background-color: #ffffff;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+code {
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  color: #333;
+  display: block;
+  white-space: pre;
+}
+
+.member-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+  color: #2c3e50;
+}
